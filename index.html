@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Features</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h2>My Portfolio</h2>
+    <button id="menuBtn">☰</button>
+    <div id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button id="themeBtn">🌙 Dark Mode</button>
+  </nav>
+
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Exploring interactive JavaScript features.</p>
+    <button onclick="showMessage()">Click Me</button>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am learning web development and JavaScript.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+      <input id="name" placeholder="Your name" required>
+      <input id="email" type="email" placeholder="Your email" required>
+      <textarea id="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="status"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
